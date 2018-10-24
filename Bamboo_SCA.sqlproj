@@ -206,4 +206,7 @@ Table=[Person].[AddressType];
     <None Include="Programmable Objects\Person\Stored Procedures\GetPersonTwitter.sql" />
     <None Include="Migrations\1.1.0-Changes\001_20181024-1304_Brian.McRae.sql" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Migrations\1.1.0-Changes\002_20181024-1331_Brian.McRae.sql" />
+  </ItemGroup>
 </Project>
