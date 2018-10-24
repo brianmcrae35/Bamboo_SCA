@@ -36,6 +36,11 @@
     <TargetDatabaseSet>True</TargetDatabaseSet>
     <Baselining>FolderBased</Baselining>
     <DeployChangesInitialImportDone>True</DeployChangesInitialImportDone>
+    <ExcludeObjectsFromSync />
+    <IncludeObjectsInDataSync>
+Table=[Person].[AddressType];
+</IncludeObjectsInDataSync>
+    <DeployChangesExecutionOrder />
   </PropertyGroup>
   <!-- SQL CHANGE AUTOMATION OFFLINE SCHEMA MODEL OPTIONS -->
   <PropertyGroup>
@@ -196,5 +201,9 @@
     <None Include="Schema-Model\Person\Tables\AddressType.sql" />
     <None Include="Schema-Model\Person\Tables\Person.sql" />
     <None Include="Schema-Model\Security\Schemas\Person.sql" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Programmable Objects\Person\Stored Procedures\GetPersonTwitter.sql" />
+    <None Include="Migrations\1.1.0-Changes\001_20181024-1304_Brian.McRae.sql" />
   </ItemGroup>
 </Project>
