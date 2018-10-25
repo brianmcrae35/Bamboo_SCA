@@ -5,6 +5,7 @@ CREATE TABLE [Person].[Address]
 [AddressLine2] [nvarchar] (60) NULL,
 [City] [nvarchar] (30) NULL,
 [State] [varchar] (50) NULL,
-[ZIP] [nvarchar] (15) NULL
+[ZIP] [nvarchar] (15) NULL,
+[Comments] [nvarchar] (255) NULL
 )
 GO
