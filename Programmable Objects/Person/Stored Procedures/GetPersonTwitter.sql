@@ -1,4 +1,4 @@
-﻿IF OBJECT_ID('[Person].[GetPersonTwitter]') IS NOT NULL
+IF OBJECT_ID('[Person].[GetPersonTwitter]') IS NOT NULL
 	DROP PROCEDURE [Person].[GetPersonTwitter];
 
 GO
@@ -10,5 +10,5 @@ GO
 
 CREATE PROCEDURE [Person].[GetPersonTwitter]
 AS
-SELECT * FROM Person.Person
+SELECT LastName FROM Person.Person
 GO

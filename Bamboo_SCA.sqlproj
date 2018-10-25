@@ -221,4 +221,8 @@ Table=[Person].[AddressType];
   <ItemGroup>
     <None Include="Migrations\1.1.0-Changes\006_20181025-0825_Brian.McRae.sql" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Programmable Objects\Person\Stored Procedures\GetPersonTwitter2.sql" />
+    <None Include="Migrations\1.1.0-Changes\007_20181025-0921_Brian.McRae.sql" />
+  </ItemGroup>
 </Project>
